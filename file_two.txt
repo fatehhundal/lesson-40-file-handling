@@ -1,0 +1,1 @@
+We will now introduce you to the world of coding in Python!
