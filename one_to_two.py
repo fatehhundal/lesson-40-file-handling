@@ -1,11 +1,13 @@
 firstfile = input("Enter the name of the first file: ")
 secondfile = input("Enter the name of the second file: ")
 
-file1 = open(firstfile, 'a')
+file1 = open(firstfile, 'r')
 file2 = open(secondfile, 'r')
 
-print("Content of the first file before appending -\n", file1.read())
-print("Content of the second file before appending -\n", file2.read())
+print("Content of the first file before appending -\n")
+print(file1.read())
+print("Content of the second file before appending -\n")
+print(file2.read())
 
 file1.close()
 file2.close()
